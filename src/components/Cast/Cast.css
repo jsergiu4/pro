@@ -1,0 +1,35 @@
+.name{
+    display: flex;
+    height: 100px;
+    overflow-y: scroll;
+    padding: 15px;
+    border-radius: 4px;
+    scrollbar-width: thin; /* Firefox */
+    box-shadow: inset 0 0 5px #000000;
+    text-align: justify;
+    flex-direction: column;
+    
+}
+   
+
+.title{
+    
+    font-size: 4vw;
+    display: flex;
+    padding-bottom: 3px;
+    padding-top:3px;
+    
+}
+
+
+@media (min-width: 835px) {
+
+    .title {
+        font-size: 3.5vw;
+      }
+
+    .name {
+        font-size: 22px;
+      }
+}
+

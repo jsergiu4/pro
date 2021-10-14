@@ -1,0 +1,16 @@
+.home{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.pageTitle{
+    font-size: 2vw;
+}
+
+@media (min-width: 835px) {
+    .pageTitle{
+        font-size: 3vw;
+    }
+}
